@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*.backdrop{*/
+/*    !*background-color: rgba(236,14,14,0.07);*!*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+
+/*}*/
+.modal{
+    width: 20rem;
+    height: 200px;
+    padding: 1rem;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    box-shadow: 0 20px 120px rgba(0,0,0,0.07);
+    border-radius: 5px;
+}
+.btn-show-modal{
+    text-align: center;
+    font-size: 23px;
+    background-color: #4CAF50;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn-show-modal:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
